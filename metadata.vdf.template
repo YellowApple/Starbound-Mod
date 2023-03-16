@@ -1,0 +1,9 @@
+"workshopitem"
+{
+"appid" "211820"
+"publishedfileid" "0"
+"contentfolder" "{{PWD}}/out/workshop"
+"previewfile" "{{PWD}}/out/preview.jpg"
+"title" "Example Starbound Mod"
+"changenote" "First release"
+}
