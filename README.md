@@ -86,3 +86,13 @@ This just tells `git` to leave some files out of the repository; for
 example, it's probably not a good idea to tell the whole world your
 Steam login name, and it's a good practice to keep package files and
 such separate from the published source code.
+
+### `COPYING`
+
+This sets the legal license for your mod.  This template is itself
+released under a variant of the [ISC
+License](https://en.wikipedia.org/wiki/ISC_license) with the
+attribution requirements removed - making it functionally equivalent
+to a public domain dedication.  If that suits you fine, then go for
+it, but most folks tend to want a stricter licenses - in which case
+the text of your chosen license would go in the `COPYING` file.
