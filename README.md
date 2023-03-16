@@ -29,6 +29,10 @@ this as a template for a new GitHub repo, via the relevant UI option)
 and have cloned it to Starbound's `mods` folder, there will be some
 starting files with which you'll want to familiarize yourself:
 
+### `README.md` (that's this file)
+
+You should update this README to describe your mod in more detail.
+
 ### `Makefile`
 
 This is the heart of this template; if you have GNU Make installed,
@@ -60,6 +64,11 @@ environment variables.  Run `cp .envrc.sample .envrc`, change
 you use to log into Steam itself), and run `direnv allow` to activate
 it.  This way, any time you `cd` into your mod folder, you'll be all
 set to run `make upload` for Steam Workshop uploads.
+
+### `preview.jpg`
+
+The Steam Workshop uses this for the preview thumbnail; replace it
+with your own.  500×500 should do the trick.
 
 ### `metadata.vdf.template`
 
