@@ -24,7 +24,7 @@ SRC_EXTS	=	config macros patch png wav
 
 STEAMCMD	=	steamcmd +login $(STEAMCMD_USER)
 STEAM_ID_PARSER	=	awk '/"publishedfileid"/{print $$2}' \
-			metadata.vdf.template | sed 's/"//g'
+			metadata.vdf | sed 's/"//g'
 
 $(OUT)/pkg/contents.pak: $(SRC_DIRS) $(SRC_EXTS)
 	rm -rf $(OUT)/pkg
